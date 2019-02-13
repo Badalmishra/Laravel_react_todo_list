@@ -1,0 +1,17 @@
+#form{
+    width: 95%;
+    margin: auto;
+    margin-top: 3%;
+  }
+ 
+  .list-group-item{
+    
+    border-radius: 0 !important;
+}
+.active{
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+}
+  #input:active , #input:focus,.delete:active,.delete:focus{
+    box-shadow: none;
+  }
